@@ -10,6 +10,7 @@
 		552038AB17810EC500D23CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552038AA17810EC500D23CD6 /* Foundation.framework */; };
 		552038AE17810EC500D23CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 552038AD17810EC500D23CD6 /* main.m */; };
 		552038B217810EC500D23CD6 /* Ejemplo_Objetos.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 552038B117810EC500D23CD6 /* Ejemplo_Objetos.1 */; };
+		552038BA1781101200D23CD6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 552038B91781101200D23CD6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		552038AD17810EC500D23CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		552038B017810EC500D23CD6 /* Ejemplo Objetos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ejemplo Objetos-Prefix.pch"; sourceTree = "<group>"; };
 		552038B117810EC500D23CD6 /* Ejemplo_Objetos.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ejemplo_Objetos.1; sourceTree = "<group>"; };
+		552038B81781101200D23CD6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		552038B91781101200D23CD6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				552038AD17810EC500D23CD6 /* main.m */,
+				552038B81781101200D23CD6 /* Person.h */,
+				552038B91781101200D23CD6 /* Person.m */,
 				552038B117810EC500D23CD6 /* Ejemplo_Objetos.1 */,
 				552038AF17810EC500D23CD6 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				552038AE17810EC500D23CD6 /* main.m in Sources */,
+				552038BA1781101200D23CD6 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
